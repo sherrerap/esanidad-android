@@ -41,11 +41,11 @@ function validateLogin() {
 
                         if (data.especialidad == 'Gestor Citas') {
                             sessionStorage.setItem("data", JSON.stringify(Dni));
-                            setTimeout(location.href = 'https://esanidad.herokuapp.com/gestorCitas', 10000);
+                            setTimeout(location.href = './views/gestorCitas.html', 10000);
                         } else {
                             if (data.especialidad == 'Gestor Sistema') {
                                 sessionStorage.setItem("data", JSON.stringify(Dni));
-                                setTimeout(location.href = 'https://esanidad.herokuapp.com/gestor', 10000);
+                                setTimeout(location.href = './views/gestor.html', 10000);
                             } else {
 
                                 if (data.especialidad != null && data.especialidad != undefined && data.especialidad != 'Gestor Citas' && data.especialidad != 'Gestor Sistema') {
@@ -55,7 +55,7 @@ function validateLogin() {
                                 } else {
                                     sessionStorage.setItem("data", JSON.stringify(Dni));
                                 }
-                                setTimeout(location.href = 'https://esanidad.herokuapp.com/paciente', 10000);
+                                setTimeout(location.href = './views/paciente.html', 10000);
                             }
 
                         }

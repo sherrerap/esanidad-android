@@ -124,7 +124,7 @@ function validate() {
                 console.log(data.type);
                 if (data.type == "OK") {
 
-                    setTimeout(location.href = 'https://esanidad.herokuapp.com/', 10000);
+                    setTimeout(location.href = '../index.html', 10000);
 
                 } else {
                     if (data.type = "error") {
