@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AngularJS, Login</title>
+    <!-- AngularJS File -->
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="js/app/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/ui-bootstrap-tpls-2.5.0.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app/app.css" />
+
+
+
+
+</head>
+
+<body>
+    <div class="form-body">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <div class="logo">
+                        <a href=""> <img src="logos_sescam.png" alt="" width="100px">
+                        </a>
+                    </div>
+
+                    <div class="page-links">
+                        <a href="https://esanidad.herokuapp.com/register">Registrarse</a>
+                    </div>
+
+
+                    <input type="text" class="form-control" name="username" id="username" pattern="([0-9]{8}[A-ZÑ])" placeholder="Introduzca su DNI" required> <input type="password" class="form-control" name="password" id="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                        title="Formato:
+-Contener como mínimo una letra mayúscula
+-Contener como mínimo una letra minúscula
+-Contener como mínimo 8 carácteres" onkeydown="mandarDatosEnter(event)" placeholder="Introduzca su contraseña" required>
+                    <div class="form-button">
+                        <input class="btn" id="btnLogin" name="btnLogin" type="submit" value="Login" onkeydown="validateLogin()" onclick="validateLogin()">
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="js/login.js"></script>

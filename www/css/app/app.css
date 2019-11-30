@@ -1,0 +1,121 @@
+html,
+body {
+    height: 100%;
+}
+
+.form-body,
+.form-holder {
+    height: 100%;
+}
+
+.form-holder {
+    width: 100%;
+}
+
+.form-content {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background: url(https://www.rnib.org.uk/sites/default/files/541291402.jpg) no-repeat;
+    background-size: cover;
+}
+
+.form-items {
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background-color: #90c39c;
+}
+
+.form-items a {
+    color: #000;
+    margin-right: 20px;
+}
+
+.logo,
+.info,
+.page-links,
+form {
+    margin-bottom: 30px;
+}
+
+.page-links a {
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.55);
+    text-decoration: none;
+}
+
+.page-links a:hover {
+    color: #000;
+}
+
+.page-links a.active {
+    border-bottom: 1px solid;
+    color: #000;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    background-color: transparent;
+    color: #000;
+    padding: 0;
+}
+
+.form-control:focus {
+    outline: 0;
+    border-color: #000;
+    box-shadow: none;
+    background-color: transparent!important;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.51);
+}
+
+.form-button {
+    margin-top: 50px;
+}
+
+.form-button .btn {
+    margin-right: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #ffa610;
+    border-color: #ffa610;
+    border-radius: 0;
+    color: #fff;
+}
+
+@media (max-width:450px) {
+    .info h3 {
+        font-size: 20px;
+    }
+    .info p {
+        font-size: 12px;
+    }
+    .form-content .form-items {
+        max-width: 300px;
+    }
+    .form-button .btn {
+        margin-right: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid green;
+}

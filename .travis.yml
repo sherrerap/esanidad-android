@@ -1,0 +1,14 @@
+language: java
+script:
+- chmod 777 ./src/test/resources/HIS_E2/app_sanidad/geckodriver
+- mvn test
+dist: xenial
+services:
+  - xvfb
+addons:
+  firefox: "70.0"
+deploy:
+    provider: heroku
+    api_key:
+        secure: 204b5735-52d7-41a7-b6ac-fa2a80bf0b82
+    app: esanidad

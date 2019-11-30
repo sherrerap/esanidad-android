@@ -1,0 +1,526 @@
+src/main/java/HIS_E2/app_sanidad/BootApplication.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/BootApplication.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/BootApplication.java:11:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/HIS_E2/app_sanidad/BootApplication.java:11:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/HIS_E2/app_sanidad/BootApplication.java:16:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/BootApplication.java:16:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:6:	UnusedImports: Avoid unused imports such as 'org.springframework.data.authentication.UserCredentials'
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:6:	UnusedImports: Avoid unused imports such as 'org.springframework.data.authentication.UserCredentials'
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:14:	UnusedImports: Avoid unused imports such as 'com.mongodb.client.MongoDatabase'
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:14:	UnusedImports: Avoid unused imports such as 'com.mongodb.client.MongoDatabase'
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:19:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:19:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:19:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:19:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:22:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:22:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:23:	LocalVariableCouldBeFinal: Local variable 'uri' could be declared final
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:23:	LocalVariableCouldBeFinal: Local variable 'uri' could be declared final
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:25:	LocalVariableCouldBeFinal: Local variable 'mongoClient' could be declared final
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:25:	LocalVariableCouldBeFinal: Local variable 'mongoClient' could be declared final
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:32:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:32:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:32:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:32:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:34:	LocalVariableCouldBeFinal: Local variable 'mongoTemplate' could be declared final
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:34:	LocalVariableCouldBeFinal: Local variable 'mongoTemplate' could be declared final
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:35:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'mongoTemplate'
+src/main/java/HIS_E2/app_sanidad/configuration/ApplicationConfig.java:35:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'mongoTemplate'
+src/main/java/HIS_E2/app_sanidad/controller/BorrarCitaController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/BorrarCitaController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/BorrarCitaController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/BorrarCitaController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:4:	UnusedImports: Avoid unused imports such as 'java.util.Optional'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:4:	UnusedImports: Avoid unused imports such as 'java.util.Optional'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:8:	UnusedImports: Avoid unused imports such as 'org.springframework.stereotype.Component'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:8:	UnusedImports: Avoid unused imports such as 'org.springframework.stereotype.Component'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:22:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:22:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:26:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:26:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:26:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:28:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:28:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:28:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:30:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:30:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:30:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:32:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:32:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:32:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:34:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:34:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:34:	UnusedPrivateField: Avoid unused private fields such as 'especialidadRepo'.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:34:	UnusedPrivateField: Avoid unused private fields such as 'especialidadRepo'.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:40:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:40:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:41:	AccessorClassGeneration: Avoid instantiation through private constructors from outside of the constructors class.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:41:	AccessorClassGeneration: Avoid instantiation through private constructors from outside of the constructors class.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:41:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the singleton field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:41:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the singleton field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:41:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:41:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:41:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:41:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:45:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:45:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:46:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'ManagerHolder.singleton' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:46:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'ManagerHolder.singleton' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'numSS' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	MethodArgumentCouldBeFinal: Parameter 'numSS' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	UseObjectForClearerAPI: Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:49:	UseObjectForClearerAPI: Rather than using a lot of String arguments, consider using a container object for those values.
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:50:	LocalVariableCouldBeFinal: Local variable 'usuario' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:50:	LocalVariableCouldBeFinal: Local variable 'usuario' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:54:	LocalVariableCouldBeFinal: Local variable 'paciente' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:54:	LocalVariableCouldBeFinal: Local variable 'paciente' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:57:	LocalVariableCouldBeFinal: Local variable 'medico' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:57:	LocalVariableCouldBeFinal: Local variable 'medico' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:64:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:64:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:64:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:64:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:64:	MethodArgumentCouldBeFinal: Parameter 'pass' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:64:	MethodArgumentCouldBeFinal: Parameter 'pass' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:65:	LocalVariableCouldBeFinal: Local variable 'med' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:65:	LocalVariableCouldBeFinal: Local variable 'med' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:67:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:67:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:67:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:68:	LocalVariableCouldBeFinal: Local variable 'lista' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:68:	LocalVariableCouldBeFinal: Local variable 'lista' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:69:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:69:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:69:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'lista'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:69:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'lista'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:76:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:76:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:76:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:76:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:77:	LocalVariableCouldBeFinal: Local variable 'lista' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:77:	LocalVariableCouldBeFinal: Local variable 'lista' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:78:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'lista'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:78:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'lista'
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:81:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:81:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:81:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:81:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:81:	MethodArgumentCouldBeFinal: Parameter 'pass' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:81:	MethodArgumentCouldBeFinal: Parameter 'pass' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:82:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:82:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:83:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:83:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:83:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:83:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:83:	SimplifyBooleanReturns: Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:83:	SimplifyBooleanReturns: Avoid unnecessary if..then..else statements when returning booleans
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:84:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/HIS_E2/app_sanidad/controller/Manager.java:84:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/HIS_E2/app_sanidad/controller/ModificarCitaController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/ModificarCitaController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/ModificarCitaController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/ModificarCitaController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/PacienteController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/PacienteController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/PacienteController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/PacienteController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/PedirCitaController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/PedirCitaController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/PedirCitaController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/PedirCitaController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/RegisterController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/RegisterController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/RegisterController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/RegisterController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:16:	UnusedImports: Avoid unused imports such as 'com.fasterxml.jackson.core.JsonProcessingException'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:16:	UnusedImports: Avoid unused imports such as 'com.fasterxml.jackson.core.JsonProcessingException'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:23:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:23:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:23:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:23:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:36:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:36:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:42:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:42:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:42:	MethodArgumentCouldBeFinal: Parameter 'jso' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:42:	MethodArgumentCouldBeFinal: Parameter 'jso' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:42:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:42:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:43:	AvoidDuplicateLiterals: The String literal "dni" appears 4 times in this file; the first occurrence is on line 43
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:43:	AvoidDuplicateLiterals: The String literal "dni" appears 4 times in this file; the first occurrence is on line 43
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:43:	LocalVariableCouldBeFinal: Local variable 'dni' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:43:	LocalVariableCouldBeFinal: Local variable 'dni' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:44:	LocalVariableCouldBeFinal: Local variable 'nombre' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:44:	LocalVariableCouldBeFinal: Local variable 'nombre' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:45:	LocalVariableCouldBeFinal: Local variable 'apellidos' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:45:	LocalVariableCouldBeFinal: Local variable 'apellidos' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:46:	LocalVariableCouldBeFinal: Local variable 'contrs' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:46:	LocalVariableCouldBeFinal: Local variable 'contrs' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'numSS' (lines '47'-'51').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'numSS' (lines '47'-'51').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'numSS' (lines '47'-'53').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:47:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'numSS' (lines '47'-'53').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:48:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'idEspecialidad' (lines '48'-'57').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:48:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'idEspecialidad' (lines '48'-'57').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:48:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'idEspecialidad' (lines '48'-'59').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:48:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'idEspecialidad' (lines '48'-'59').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:62:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:62:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:62:	LocalVariableCouldBeFinal: Local variable 'usuario' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:62:	LocalVariableCouldBeFinal: Local variable 'usuario' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:62:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'Manager.get' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:62:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'Manager.get' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:63:	LocalVariableCouldBeFinal: Local variable 'respuesta' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:63:	LocalVariableCouldBeFinal: Local variable 'respuesta' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:63:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:63:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:63:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:63:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:64:	AvoidDuplicateLiterals: The String literal "type" appears 6 times in this file; the first occurrence is on line 64
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:64:	AvoidDuplicateLiterals: The String literal "type" appears 6 times in this file; the first occurrence is on line 64
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:71:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:71:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:71:	MethodArgumentCouldBeFinal: Parameter 'jso' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:71:	MethodArgumentCouldBeFinal: Parameter 'jso' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:71:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:71:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:72:	LocalVariableCouldBeFinal: Local variable 'dni' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:72:	LocalVariableCouldBeFinal: Local variable 'dni' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:73:	LocalVariableCouldBeFinal: Local variable 'pass' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:73:	LocalVariableCouldBeFinal: Local variable 'pass' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:74:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:74:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:74:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:74:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:74:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'Manager.get' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:74:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'Manager.get' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:75:	LocalVariableCouldBeFinal: Local variable 'respuesta' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:75:	LocalVariableCouldBeFinal: Local variable 'respuesta' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:75:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:75:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:75:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:75:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:82:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:82:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:90:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:90:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:90:	MethodArgumentCouldBeFinal: Parameter 'jso' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:90:	MethodArgumentCouldBeFinal: Parameter 'jso' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:90:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:90:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:91:	LocalVariableCouldBeFinal: Local variable 'dni' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:91:	LocalVariableCouldBeFinal: Local variable 'dni' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:92:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:92:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:92:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:92:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:92:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'Manager.get' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:92:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'Manager.get' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:93:	LocalVariableCouldBeFinal: Local variable 'respuesta' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:93:	LocalVariableCouldBeFinal: Local variable 'respuesta' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:93:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:93:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:93:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:93:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:96:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:96:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:103:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:103:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:103:	MethodArgumentCouldBeFinal: Parameter 'jso' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:103:	MethodArgumentCouldBeFinal: Parameter 'jso' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:103:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:103:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:104:	LocalVariableCouldBeFinal: Local variable 'dni' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:104:	LocalVariableCouldBeFinal: Local variable 'dni' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:105:	LocalVariableCouldBeFinal: Local variable 'pass' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:105:	LocalVariableCouldBeFinal: Local variable 'pass' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:106:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'resultado' (lines '106'-'115').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:106:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'resultado' (lines '106'-'115').
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:106:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:106:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:108:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:108:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:108:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'Manager.get' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:108:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'Manager.get' due to existing same package import 'HIS_E2.app_sanidad.controller.*'
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:112:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:112:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:117:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:117:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:117:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:117:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:117:	ShortVariable: Avoid variables with short names like ex
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:117:	ShortVariable: Avoid variables with short names like ex
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:118:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:118:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:118:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:118:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:118:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/HIS_E2/app_sanidad/controller/WebController.java:118:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/HIS_E2/app_sanidad/controller/indexDController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/indexDController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/indexDController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/indexDController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/preguntasFrecuentesController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/preguntasFrecuentesController.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/controller/preguntasFrecuentesController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/controller/preguntasFrecuentesController.java:11:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:8:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:8:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:8:	DataClass: The class 'Cita' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=9)
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:8:	DataClass: The class 'Cita' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=9)
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:8:	ShortClassName: Avoid short class names like Cita
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:8:	ShortClassName: Avoid short class names like Cita
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:10:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:10:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:11:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the idCita field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:11:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the idCita field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:11:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:11:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:12:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fecha field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:12:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fecha field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:12:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:12:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the dniMedico field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the dniMedico field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:13:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:13:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the dniPaciente field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the dniPaciente field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:14:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:14:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	MethodArgumentCouldBeFinal: Parameter 'dniMedico' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	MethodArgumentCouldBeFinal: Parameter 'dniMedico' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	MethodArgumentCouldBeFinal: Parameter 'dniPaciente' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	MethodArgumentCouldBeFinal: Parameter 'dniPaciente' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	MethodArgumentCouldBeFinal: Parameter 'fecha' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	MethodArgumentCouldBeFinal: Parameter 'fecha' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	MethodArgumentCouldBeFinal: Parameter 'idCita' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:17:	MethodArgumentCouldBeFinal: Parameter 'idCita' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:29:	MethodArgumentCouldBeFinal: Parameter 'idCita' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:29:	MethodArgumentCouldBeFinal: Parameter 'idCita' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:37:	MethodArgumentCouldBeFinal: Parameter 'fecha' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:37:	MethodArgumentCouldBeFinal: Parameter 'fecha' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:45:	MethodArgumentCouldBeFinal: Parameter 'dniMedico' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:45:	MethodArgumentCouldBeFinal: Parameter 'dniMedico' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:53:	MethodArgumentCouldBeFinal: Parameter 'dniPaciente' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Cita.java:53:	MethodArgumentCouldBeFinal: Parameter 'dniPaciente' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:8:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:8:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:8:	DataClass: The class 'Especialidad' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:8:	DataClass: The class 'Especialidad' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=7)
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:10:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:10:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:11:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the idEspecialidad field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:11:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the idEspecialidad field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:11:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:11:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:12:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the nombreEspecialidad field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:12:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the nombreEspecialidad field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:12:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:12:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:12:	LongVariable: Avoid excessively long variable names like nombreEspecialidad
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:12:	LongVariable: Avoid excessively long variable names like nombreEspecialidad
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the duracionCita field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the duracionCita field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:13:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:13:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	LongVariable: Avoid excessively long variable names like nombreEspecialidad
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	LongVariable: Avoid excessively long variable names like nombreEspecialidad
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	MethodArgumentCouldBeFinal: Parameter 'duracionCita' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	MethodArgumentCouldBeFinal: Parameter 'duracionCita' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	MethodArgumentCouldBeFinal: Parameter 'nombreEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:16:	MethodArgumentCouldBeFinal: Parameter 'nombreEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:27:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:27:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:35:	LongVariable: Avoid excessively long variable names like nombreEspecialidad
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:35:	LongVariable: Avoid excessively long variable names like nombreEspecialidad
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:35:	MethodArgumentCouldBeFinal: Parameter 'nombreEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:35:	MethodArgumentCouldBeFinal: Parameter 'nombreEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:43:	MethodArgumentCouldBeFinal: Parameter 'duracionCita' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Especialidad.java:43:	MethodArgumentCouldBeFinal: Parameter 'duracionCita' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:6:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:6:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:8:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the idEspecialidad field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:8:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the idEspecialidad field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:8:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:8:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:8:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:8:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:11:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:20:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Medico.java:20:	MethodArgumentCouldBeFinal: Parameter 'idEspecialidad' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:6:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:6:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:8:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the numeroSS field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:8:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the numeroSS field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:8:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:8:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:8:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:8:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'numeroSS' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:11:	MethodArgumentCouldBeFinal: Parameter 'numeroSS' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:20:	MethodArgumentCouldBeFinal: Parameter 'numeroSS' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Paciente.java:20:	MethodArgumentCouldBeFinal: Parameter 'numeroSS' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:7:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:7:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:7:	DataClass: The class 'Usuario' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=12)
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:7:	DataClass: The class 'Usuario' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=12)
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:9:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:9:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the dni field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the dni field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:10:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:10:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:11:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the nombre field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:11:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the nombre field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:11:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:11:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:11:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:11:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:12:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the apellidos field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:12:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the apellidos field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:12:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:12:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contrs field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contrs field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:13:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:13:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the centroSalud field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the centroSalud field if you want a default access modifier
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:14:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:14:	CommentRequired: Field comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:16:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:24:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:24:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:32:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:32:	MethodArgumentCouldBeFinal: Parameter 'dni' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:40:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:40:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:48:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:48:	MethodArgumentCouldBeFinal: Parameter 'apellidos' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:56:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:56:	MethodArgumentCouldBeFinal: Parameter 'contrs' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:64:	MethodArgumentCouldBeFinal: Parameter 'centroSalud' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/model/Usuario.java:64:	MethodArgumentCouldBeFinal: Parameter 'centroSalud' is not assigned and could be declared final
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:12:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:12:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:14:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:14:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:15:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:17:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:17:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:18:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/CitaRepository.java:18:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/EspecialidadRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/EspecialidadRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/EspecialidadRepository.java:9:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/EspecialidadRepository.java:9:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/MedicoRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/MedicoRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/MedicoRepository.java:10:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/MedicoRepository.java:10:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/MedicoRepository.java:12:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/HIS_E2/app_sanidad/repositories/MedicoRepository.java:12:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/HIS_E2/app_sanidad/repositories/MedicoRepository.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/MedicoRepository.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/PacienteRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/PacienteRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/PacienteRepository.java:9:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/PacienteRepository.java:9:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/UserRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/UserRepository.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/HIS_E2/app_sanidad/repositories/UserRepository.java:10:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/UserRepository.java:10:	CommentRequired: Header comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/UserRepository.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/HIS_E2/app_sanidad/repositories/UserRepository.java:13:	CommentRequired: Public method and constructor comments are required
