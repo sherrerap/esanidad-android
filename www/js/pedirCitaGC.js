@@ -1,6 +1,6 @@
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
-    location.href = 'https://esanidad.herokuapp.com/'
+    location.href = '../index.html'
 } else {
     var contenidoDespegable = true;
     var contenidoDespegableHoras = true;
@@ -228,7 +228,7 @@ function pedirCita() {
                 if (data.type == "OK") {
                     alert("OK: se ha procesado correctamente la petición de creación de la cita.");
                     setTimeout(
-                        location.href = 'https://esanidad.herokuapp.com/gestorCitas',
+                        location.href = '../views/gestorCitas.html',
                         10000);
 
                 } else {

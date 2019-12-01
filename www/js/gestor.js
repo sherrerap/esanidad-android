@@ -1,6 +1,6 @@
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
-    location.href = 'https://esanidad.herokuapp.com/'
+    location.href = '../index.html'
 } else {
     var DNI = JSON.parse(sessionStorage.getItem("data"));
     var recurso = "https://esanidad.herokuapp.com/consultaEspecialidades";
@@ -109,7 +109,7 @@ function eliminarEspecialidad(id) {
         if (data.type == "OK") {
             console.log(data);
             console.log("especialidad eliminada");
-            setTimeout(location.href = 'https://esanidad.herokuapp.com/gestor', 10000);
+            setTimeout(location.href = './gestor.html', 10000);
         }
     }), 10000);
 }
@@ -134,7 +134,7 @@ function eliminarMedico(id) {
         if (data.type == "OK") {
             console.log(data);
             console.log("médico eliminado");
-            setTimeout(location.href = 'https://esanidad.herokuapp.com/gestor', 10000);
+            setTimeout(location.href = './gestor.html', 10000);
         }
     }), 10000);
 }
@@ -144,10 +144,10 @@ function modificarEspecialidad(id) {
     sessionStorage.setItem("tiempo", JSON.stringify(datosDuracion[id]));
     sessionStorage.setItem("inicio", JSON.stringify(datosHoraInicio[id]));
     sessionStorage.setItem("fin", JSON.stringify(datosHoraFin[id]));
-    location.href = 'https://esanidad.herokuapp.com/modificarEspecialidad'
+    location.href = '../views/modificarEspecialidad.html'
 }
 
 function cerrarSesion() {
     sessionStorage.removeItem("data");
-    setTimeout(location.href = 'https://esanidad.herokuapp.com/', 10000);
+    setTimeout(location.href = '../index.html', 10000);
 }

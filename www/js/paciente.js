@@ -1,6 +1,6 @@
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
-    location.href = 'https://esanidad.herokuapp.com/'
+    location.href = '../index.html'
 } else {
     var DNI = JSON.parse(sessionStorage.getItem("data"));
     var divCambioRol = document.getElementById("divCambioRol");
@@ -51,7 +51,7 @@ if (sessionStorage.getItem("data") == null) {
 function cambiarRol() {
 
     alert("Esta cambiando el rol a Trabajador...")
-    setTimeout(location.href = 'https://esanidad.herokuapp.com/doctor', 10000);
+    setTimeout(location.href = '../views/doctor.html', 10000);
 
 }
 
@@ -77,7 +77,7 @@ function eliminarCita(id) {
         if (data.type == "OK") {
             console.log("eliminar");
             console.log(data);
-            setTimeout(location.href = 'https://esanidad.herokuapp.com/paciente', 10000);
+            setTimeout(location.href = '../views/paciente.html', 10000);
         }
     }), 10000);
 }
@@ -86,7 +86,7 @@ function modificarCita(id) {
     sessionStorage.setItem("fecha", JSON.stringify(datosF[id]));
     sessionStorage.setItem("dni", JSON.stringify(datosDNIP[id]));
     sessionStorage.setItem("especialidad", JSON.stringify(datosES[id]));
-    location.href = 'https://esanidad.herokuapp.com/modificarCita';
+    location.href = '../views/modificarCita.html';
 }
 
 function mostrarContenido(datosDNIP, datosES, datosF) {
@@ -115,5 +115,5 @@ function cerrarSesion() {
     sessionStorage.removeItem("data");
     sessionStorage.removeItem("dniDoctor");
     sessionStorage.removeItem("especialidadMedico");
-    setTimeout(location.href = 'https://esanidad.herokuapp.com/', 10000);
+    setTimeout(location.href = '../index.html', 10000);
 }
