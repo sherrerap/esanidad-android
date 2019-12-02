@@ -141,6 +141,7 @@
         <div class="topnav" id="myTopnav">
             <a class="active">Menú</a>
             <a href="../views/especialidad.html">Crear Especialidad</a>
+            <a href="../views/horario.html">Crear Horario</a>
             <a href="../views/medico.html">Crear Médico</a>
             <a href="../views/medicoPaciente.html">Crear Médico-Paciente</a>
             <a href="#" onclick="cerrarSesion()">Salir</a>
@@ -207,6 +208,29 @@
                                 </tr>
                                 </thead>
                                 <tbody id="tablaMedicoCuerpo">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="data-table-list">
+                        <div class="basic-tb-hd">
+                            <h2>Horarios médico</h2>
+                            <p>Listado de horarios de médicos registrados en el sistema, como gestor puede crearlos y eliminarlos.</p>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                <tr>
+                                    <th>DNI</th>
+                                    <th>Duracion</th>
+                                    <th>Hora Inicio</th>
+                                    <th>Hora Fin</th>
+                                    <th style="width: 10px;"></th>
+                                    <th style="width: 10px;"></th>
+                                </tr>
+                                </thead>
+                                <tbody id="tablaHorarioCuerpo">
                                 </tbody>
                             </table>
                         </div>

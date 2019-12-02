@@ -113,7 +113,7 @@ function eliminarEspecialidad(id) {
         if (data.type == "OK") {
             console.log(data);
             console.log("especialidad eliminada");
-            setTimeout(location.href = './gestor.html', 10000);
+            setTimeout(location.href = 'https://esanidad.herokuapp.com/gestor', 10000);
         }
     }), 10000);
 }
@@ -154,4 +154,81 @@ function modificarEspecialidad(id) {
 function cerrarSesion() {
     sessionStorage.removeItem("data");
     setTimeout(location.href = '../index.html', 10000);
+}
+
+var recurso = "https://esanidad.herokuapp.com/consultaHorarios";
+var datosDNIMedico = [];
+var datosDuracionM = [];
+var datosHoraInicioM = [];
+var datosHoraFinM = [];
+
+var data = {
+    dni: DNI,
+};
+data = JSON.stringify(data);
+setTimeout($.ajax({
+    url: recurso,
+    type: "POST",
+    data: data,
+    xhrFields: {
+        withCredentials: true
+    },
+    headers: {
+        'Content-Type': 'application/json'
+    },
+}).done(function(data, textStatus, jqXHR) {
+    if (data.type == "OK") {
+        for (var i = 0; i < (data.numero); i++) {
+                datosDNIMedico[i] = data['dniMedico' + i];
+                datosDuracionM[i] = data['duracionCita' + i];
+                datosHoraInicioM[i] = data['horaInicio' + i];
+                datosHoraFinM[i] = data['horaFin' + i];
+        }
+        mostrarHorarios(datosDNIMedico,datosDuracionM,datosHoraInicioM,datosHoraFinM);
+    }
+}), 10000);
+
+function mostrarHorarios(datosDNIMedico, datosDuracionM, datosHoraInicioM, datosHoraFinM) {
+    var cuerpo_horario = "";
+
+    for (var i = 0; i < datosDNIMedico.length; i++) {
+        cuerpo_horario += '<tr>' + '<td>' + datosDNIMedico[i] + '</td>' + '<td>' +
+            datosDuracionM[i] + ' minutos </td>' + '<td>' + datosHoraInicioM[i] + '</td>' + '<td>' + datosHoraFinM[i] + '</td>' +
+            '<td><a id=' + i + ' href="javascript:void(0);" onclick="eliminarHorario(id);">' + 'Eliminar' + '</a></td>' +
+            '<td><a id=' + i + ' href="javascript:void(0);" onclick="modificarHorario(id);">' + 'Modificar' + '</a></td>' + '</tr>';
+    }
+    $("#tablaHorarioCuerpo").append(cuerpo_horario);
+}
+
+function modificarHorario(id) {
+    sessionStorage.setItem("nombre", JSON.stringify(datosDNIMedico[id]));
+    sessionStorage.setItem("tiempo", JSON.stringify(datosDuracionM[id]));
+    sessionStorage.setItem("inicio", JSON.stringify(datosHoraInicioM[id]));
+    sessionStorage.setItem("fin", JSON.stringify(datosHoraFinM[id]));
+    location.href = '../views/modificarHorario.html'
+}
+
+function eliminarHorario(id) {
+    var recurso = "https://esanidad.herokuapp.com/eliminarHorario";
+    var data = {
+        dniMedico: datosDNIMedico[id]
+    }
+    data = JSON.stringify(data);
+    setTimeout($.ajax({
+        url: recurso,
+        type: "POST",
+        data: data,
+        xhrFields: {
+            withCredentials: true
+        },
+        headers: {
+            'Content-Type': 'application/json'
+        },
+    }).done(function(data) {
+        if (data.type == "OK") {
+            console.log(data);
+            console.log("horario eliminado");
+            setTimeout(location.href = './gestor.html', 10000);
+        }
+    }), 10000);
 }
