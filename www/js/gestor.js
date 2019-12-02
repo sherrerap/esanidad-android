@@ -50,6 +50,8 @@ function mostrarEspecialidades(datosNombre, datosDuracion, datosHoraInicio, dato
 
 var recurso = "https://esanidad.herokuapp.com/listaMedicos";
 var datosDNI = [];
+var datosNombre = [];
+var datosApellido = [];
 
 var data = {
     dni: DNI,
@@ -69,6 +71,8 @@ setTimeout($.ajax({
     if (data.type == "OK") {
         for (var i = 0; i < (data.numero); i++) {
             datosDNI[i] = data['dni' + i];
+            datosNombre[i] = data['nombre' + i];
+            datosApellido[i] = data['apellidos' + i];
         }
         mostrarMedicos(datosDNI);
     }
@@ -82,7 +86,7 @@ function mostrarMedicos(datosDNI) {
             dni: datosDNI[i],
         };
         data = JSON.stringify(data);
-        cuerpo_medico += '<tr>' + '<td>' + datosDNI[i] + '</td>' +
+        cuerpo_medico += '<tr>' + '<td>' + datosDNI[i] + '</td>' + '<td>' +  datosNombre[i] + ' </td>' + '<td>' + datosApellido[i] + ' </td>' +
             '<td><a id=' + i + ' href="javascript:void(0);" onclick="eliminarMedico(id);">' + 'Eliminar' + '</a></td>' +
             '<td><a id=' + i + ' href="javascript:void(0);" onclick="modificarMedico(id);">' + 'Modificar' + '</a></td>' + '</tr>';
     }

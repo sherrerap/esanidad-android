@@ -1,6 +1,6 @@
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
-    location.href = 'https://esanidad.herokuapp.com/'
+    location.href = '../index.html'
 } else {
     var tiempo = JSON.parse(sessionStorage.getItem("tiempo"));
     var inicio = JSON.parse(sessionStorage.getItem("inicio"));
@@ -44,7 +44,7 @@ if (sessionStorage.getItem("data") == null) {
             .done(function(data, textStatus, jqXHR) {
                 console.log(data.type);
                 if (data.type == "OK") {
-                    setTimeout(location.href = 'https://esanidad.herokuapp.com/gestor', 10000);
+                    setTimeout(location.href = '../views/gestor.html', 10000);
                     sessionStorage.removeItem("tiempo");
                     sessionStorage.removeItem("inicio");
                     sessionStorage.removeItem("fin");

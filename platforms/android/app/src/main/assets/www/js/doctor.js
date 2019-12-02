@@ -1,6 +1,6 @@
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
-    location.href = 'https://esanidad.herokuapp.com/'
+    location.href = '../index.html'
 } else {
     var datosDNIP = [];
     var datosES = [];
@@ -61,7 +61,7 @@ function obtenerCitaPaciente() {
 
 function cambioRolPaciente() {
     alert("Esta cambiando el rol a Paciente...");
-    setTimeout(location.href = 'https://esanidad.herokuapp.com/paciente', 10000);
+    setTimeout(location.href = '../views/paciente.html', 10000);
 }
 
 function eliminarCita(id) {
@@ -86,7 +86,7 @@ function eliminarCita(id) {
         if (data.type == "OK") {
             console.log("eliminar");
             console.log(data);
-            setTimeout(location.href = 'https://esanidad.herokuapp.com/eliminarCP', 10000);
+            setTimeout(location.href = '../views/eliminarCP.html', 10000);
         }
     }), 10000);
 }
@@ -119,6 +119,6 @@ function cerrarSesion() {
 
     sessionStorage.removeItem("dniDoctor");
     sessionStorage.removeItem("especialidadMedico");
-    setTimeout(location.href = 'https://esanidad.herokuapp.com/', 10000);
+    setTimeout(location.href = '../index.html', 10000);
 
 }

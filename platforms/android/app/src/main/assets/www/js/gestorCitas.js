@@ -1,6 +1,6 @@
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
-    location.href = 'https://esanidad.herokuapp.com/'
+    location.href = '../index.html'
 } else {
     var datosDNIP = [];
     var datosES = [];
@@ -62,7 +62,7 @@ function mostrarBtnBuscar() {
     datosF = [];
 
     mostrarContenido(datosDNIP, datosES, datosF);
-    setTimeout(location.href = 'https://esanidad.herokuapp.com/gestorCitas', 10000);
+    setTimeout(location.href = './gestorCitas.html', 10000);
 }
 
 function mostrarCitas() {
@@ -131,7 +131,7 @@ function eliminarCita(id) {
             console.log("eliminar");
             console.log(data);
             alert("OK: se ha procesado correctamente la petición de eliminación de la cita.");
-            setTimeout(location.href = 'https://esanidad.herokuapp.com/gestorCitas', 10000);
+            setTimeout(location.href = './gestorCitas.html', 10000);
         } else {
 
             if (data.type == "error") {
@@ -146,7 +146,7 @@ function modificarCita(id) {
     sessionStorage.setItem("fechaPacienteGC", JSON.stringify(datosF[id]));
     sessionStorage.setItem("dniPacienteGC", JSON.stringify(datosDNIP[id]));
     sessionStorage.setItem("especialidadPacienteGC", JSON.stringify(datosES[id]));
-    location.href = 'https://esanidad.herokuapp.com/modificarCitaGC';
+    location.href = '../views/modificarCitaGC.html';
 }
 
 function mostrarContenido(datosDNIP, datosES, datosF) {
@@ -174,6 +174,6 @@ function mostrarContenido(datosDNIP, datosES, datosF) {
 function cerrarSesion() {
 
     sessionStorage.removeItem("dniPacienteGC");
-    setTimeout(location.href = 'https://esanidad.herokuapp.com/', 10000);
+    setTimeout(location.href = '../index.html', 10000);
 
 }
