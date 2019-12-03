@@ -2,32 +2,17 @@ if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
     location.href = '../index.html'
 } else {
-    var tiempo = JSON.parse(sessionStorage.getItem("tiempo"));
-    var inicio = JSON.parse(sessionStorage.getItem("inicio"));
-    var fin = JSON.parse(sessionStorage.getItem("fin"));
-    document.getElementById("tiempoCita").value = tiempo;
-    document.getElementById("horaInicio").value = inicio;
-    document.getElementById("horaFin").value = fin;
+    var nombre = JSON.parse(sessionStorage.getItem("nombreEspecialidad"));
+    console.log(sessionStorage.getItem("nombreEspecialidad"));
+    document.getElementById("nombre").value = nombre;
 
     function modificarEspecialidad() {
-        var nombre = JSON.parse(sessionStorage.getItem("nombre"));
-        var tiempo = JSON.parse(sessionStorage.getItem("tiempo"));
-        var duracionNew = document.getElementById("tiempoCita").value;
-        var inicio = JSON.parse(sessionStorage.getItem("inicio"));
-        var horaInicioNew = document.getElementById("horaInicio").value;
-        var fin = JSON.parse(sessionStorage.getItem("fin"));
-        var horaFinNew = document.getElementById("horaFin").value;
-
+        var nombreNew = document.getElementById("nombre").value;
         var recurso = "https://esanidad.herokuapp.com/modificarEspecialidad";
         var data = {
             type: "modificar especialidad",
-            nombreEspecialidad: nombre,
-            duracionNew: duracionNew,
-            duracionOld: tiempo,
-            horaInicioNew: horaInicioNew,
-            horaInicioOld: inicio,
-            horaFinNew: horaFinNew,
-            horaFinOld: fin
+            nombreEspecialidadOld: nombre,
+            nombreEspecialidadNew: nombreNew
         };
         data = JSON.stringify(data);
         setTimeout($.ajax({
@@ -45,21 +30,21 @@ if (sessionStorage.getItem("data") == null) {
                 console.log(data.type);
                 if (data.type == "OK") {
                     setTimeout(location.href = '../views/gestor.html', 10000);
-                    sessionStorage.removeItem("tiempo");
-                    sessionStorage.removeItem("inicio");
-                    sessionStorage.removeItem("fin");
+                    sessionStorage.removeItem("nombre");
                 } else {
                     if (data.type = "error") {
                         alert("Error al modificar la especialidad, contacte con el servicio de soporte.");
-                        sessionStorage.removeItem("tiempo");
-                        sessionStorage.removeItem("inicio");
-                        sessionStorage.removeItem("fin");
+                        sessionStorage.removeItem("nombre");
+
                     }
-                    sessionStorage.removeItem("tiempo");
-                    sessionStorage.removeItem("inicio");
-                    sessionStorage.removeItem("fin");
+                    sessionStorage.removeItem("nombre");
+
                 }
 
             }), 10000);
     }
+}
+function cerrarSesion() {
+    sessionStorage.removeItem("data");
+    setTimeout(location.href = '../index.html', 10000);
 }

@@ -77,7 +77,8 @@
         @media screen and (max-width: 600px) {
           .topnav a:not(:first-child) {display: none;}
           .topnav a.icon {
-            float: right;
+            float:left;
+            right:-50%;
             display: block;
           }
         }
@@ -86,7 +87,7 @@
           .topnav.responsive {position: relative;}
           .topnav.responsive .icon {
             position: absolute;
-            right: 0;
+            right: 50%;
             top: 0;
           }
           .topnav.responsive a {
@@ -143,6 +144,7 @@
         <a href="../views/especialidad.html">Crear Especialidad</a>
         <a href="../views/horario.html">Crear Horario</a>
         <a href="./medico.html">Crear Médico</a>
+        <a href="../views/centro.html">Asignar centro a médico</a>
         <a href="../views/medicoPaciente.html">Crear Médico-Paciente</a>
         <a href="#" onclick="cerrarSesion()">Salir</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -180,12 +182,14 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                                 <div class="form-group">
                                     <div>
                                         <select name="especialidad" id="especialidad">
-                                        <option>Selecciona Especialidad</option>
-                                    </select>
+                                            <option>Selecciona Especialidad</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>

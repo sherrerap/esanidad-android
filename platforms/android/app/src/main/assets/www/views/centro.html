@@ -10,8 +10,8 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <link rel="stylesheet" href="../css/owl.carousel.css">
     <link rel="stylesheet" href="../css/owl.theme.css">
@@ -35,7 +35,8 @@
     <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    <script src="../js/app.js"></script><meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../js/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body {
@@ -142,7 +143,7 @@ menu -->
     <a href="../views/especialidad.html">Crear Especialidad</a>
     <a href="../views/horario.html">Crear Horario</a>
     <a href="../views/medico.html">Crear Médico</a>
-    <a href="../views/centro.html">Asignar centro a médico</a>
+    <a href="./centro.html">Asignar centro a médico</a>
     <a href="../views/medicoPaciente.html">Crear Médico-Paciente</a>
     <a href="#" onclick="cerrarSesion()">Salir</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -163,48 +164,40 @@ menu -->
     }
     </script>
 
-<!-- modificarEspecialidad -->
+<!-- medico -->
 <div class="data-table-area">
     <div class="container">
         <div class="row" ng-controller="add">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="sale-statistic-inner notika-shadow mg-tb-30">
                     <div class="basic-tb-hd">
-                        <h2>Modificar horario</h2>
+                        <h2>Asignar centro a médico</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <div class="form-group">
                                 <div class="nk-int-st">
-                                    <input type="text" id="dniMedico" name="dniMedico" class="form-control" placeholder="DNI Medico" readonly>
+                                    <input type="text" id="dni" name="dni" class="form-control" placeholder="DNI">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+
+                    </div>
+                    <div class="row">
+
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                             <div class="form-group">
-                                <div class="nk-int-st">
-                                    <input type="number" id="tiempoCita" name="tiempoCita" class="form-control" placeholder="Duración">
+                                <div>
+                                    <select name="nombreCentro" id="nombreCentro">
+                                        <option>Selecciona Centro</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="form-group">
-                                <div class="nk-int-st">
-                                    <input type="time" id="horaInicio" value="08:00" name="horaInicio" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                            <div class="form-group">
-                                <div class="nk-int-st">
-                                    <input type="time" id="horaFin" value="14:00" name="horaFin" class="form-control">
-                                </div>
-                            </div>
-                        </div>
-                        <br><br><br>
+                        <br><br><br><br><br>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="form-example-int">
-                                <button id="btnPedirCita" class="btn btn-success notika-btn-success" onclick="modificarHorario()">Modificar</button>
+                                <button id="btnPedirCita" class="btn btn-success notika-btn-success" onclick="asignarCentro()">Asignar</button>
                             </div>
                         </div>
                     </div>
@@ -262,7 +255,7 @@ menu -->
 <script src="../js/bootstrap-select/bootstrap-select.js"></script>
 <script src="../js/plugins.js"></script>
 <script src="../js/main.js"></script>
-<script src="../js/modificarHorario.js"></script>
+<script src="../js/centro.js"></script>
 </body>
 
 </html>

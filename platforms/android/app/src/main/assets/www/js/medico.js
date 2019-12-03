@@ -25,12 +25,12 @@ if (sessionStorage.getItem("data") == null) {
             for (var i = 0; i < (data.numero); i++) {
                 datosNombre[i] = data['nombreEspecialidad' + i];
             }
-            mostrarEspecialidades(datosNombre);
+            mostrarEspecialidadesM(datosNombre);
         }
     }), 10000);
 }
 
-function mostrarEspecialidades(datosNombre) {
+function mostrarEspecialidadesM(datosNombre) {
     var select_especialidades = "";
 
     for (var i = 0; i < datosNombre.length; i++) {
@@ -77,5 +77,5 @@ function crearMedico() {
 
 function cerrarSesion() {
     sessionStorage.removeItem("data");
-    setTimeout(location.href = '../index.html', 10000);
+    setTimeout(location.href = 'index.html', 10000);
 }

@@ -1,20 +1,11 @@
 function crearEspecialidad() {
     var nombre = document.getElementById("nombreEspecialidad").value;
-    var tiempo = document.getElementById("tiempoCita").value;
-    var inicio = document.getElementById("horaInicio").value;
-    var fin = document.getElementById("horaFin").value;
     var recurso = "https://esanidad.herokuapp.com/crearEspecialidad";
     var data = {
         type: "especialidad",
         nombreEspecialidad: nombre,
-        tiempoCita: tiempo,
-        horaInicio: inicio,
-        horaFin: fin
     };
     console.log(nombre);
-    console.log(tiempo);
-    console.log(inicio);
-    console.log(fin);
     data = JSON.stringify(data);
     setTimeout($.ajax({
             url: recurso,

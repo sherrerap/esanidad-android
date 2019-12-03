@@ -1,4 +1,3 @@
-
 function crearHorario() {
     var nombre = document.getElementById("dniMedico").value;
     var tiempo = document.getElementById("tiempoCita").value;
@@ -43,5 +42,5 @@ function crearHorario() {
 
 function cerrarSesion() {
     sessionStorage.removeItem("data");
-    setTimeout(location.href = '../index.html', 10000);
+    setTimeout(location.href = 'https://esanidad.herokuapp.com/', 10000);
 }

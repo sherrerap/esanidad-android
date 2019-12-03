@@ -2,9 +2,11 @@ if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
     location.href = '../index.html'
 } else {
+    var dniMedico = JSON.parse(sessionStorage.getItem("dniMedico"));
     var tiempo = JSON.parse(sessionStorage.getItem("tiempo"));
     var inicio = JSON.parse(sessionStorage.getItem("inicio"));
     var fin = JSON.parse(sessionStorage.getItem("fin"));
+    document.getElementById("dniMedico").value = dniMedico;
     document.getElementById("tiempoCita").value = tiempo;
     document.getElementById("horaInicio").value = inicio;
     document.getElementById("horaFin").value = fin;
@@ -62,4 +64,9 @@ if (sessionStorage.getItem("data") == null) {
 
             }), 10000);
     }
+}
+
+function cerrarSesion() {
+    sessionStorage.removeItem("data");
+    setTimeout(location.href = 'https://esanidad.herokuapp.com/', 10000);
 }

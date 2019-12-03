@@ -1,3 +1,4 @@
+
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
     location.href = '../index.html'
@@ -8,6 +9,7 @@ if (sessionStorage.getItem("data") == null) {
     var datosDuracion = [];
     var datosHoraInicio = [];
     var datosHoraFin = [];
+    var datosNombreEspecialidad = []
 
     var data = {
         dni: DNI,
@@ -26,22 +28,19 @@ if (sessionStorage.getItem("data") == null) {
     }).done(function(data, textStatus, jqXHR) {
         if (data.type == "OK") {
             for (var i = 0; i < (data.numero); i++) {
-                datosNombre[i] = data['nombreEspecialidad' + i];
-                datosDuracion[i] = data['duracionCita' + i];
-                datosHoraInicio[i] = data['horaInicio' + i];
-                datosHoraFin[i] = data['horaFin' + i];
+                datosNombreEspecialidad[i] = data['nombreEspecialidad' + i];
+
             }
-            mostrarEspecialidades(datosNombre, datosDuracion, datosHoraInicio, datosHoraFin);
+            mostrarEspecialidades(datosNombreEspecialidad);
         }
     }), 10000);
 }
 
-function mostrarEspecialidades(datosNombre, datosDuracion, datosHoraInicio, datosHoraFin) {
+function mostrarEspecialidades(datosNombre) {
     var cuerpo_especialidades = "";
 
     for (var i = 0; i < datosNombre.length; i++) {
-        cuerpo_especialidades += '<tr>' + '<td>' + datosNombre[i] + '</td>' + '<td>' +
-            datosDuracion[i] + ' minutos </td>' + '<td>' + datosHoraInicio[i] + '</td>' + '<td>' + datosHoraFin[i] + '</td>' +
+        cuerpo_especialidades += '<tr>' + '<td>' + datosNombreEspecialidad[i] + '</td>' +
             '<td><a id=' + i + ' href="javascript:void(0);" onclick="eliminarEspecialidad(id);">' + 'Eliminar' + '</a></td>' +
             '<td><a id=' + i + ' href="javascript:void(0);" onclick="modificarEspecialidad(id);">' + 'Modificar' + '</a></td>' + '</tr>';
     }
@@ -86,7 +85,7 @@ function mostrarMedicos(datosDNI) {
             dni: datosDNI[i],
         };
         data = JSON.stringify(data);
-        cuerpo_medico += '<tr>' + '<td>' + datosDNI[i] + '</td>' + '<td>' +  datosNombre[i] + ' </td>' + '<td>' + datosApellido[i] + ' </td>' +
+        cuerpo_medico += '<tr>' + '<td>' + datosDNI[i] + '</td>' + '<td>' + datosNombre[i] + ' </td>' + '<td>' + datosApellido[i] + ' </td>' +
             '<td><a id=' + i + ' href="javascript:void(0);" onclick="eliminarMedico(id);">' + 'Eliminar' + '</a></td>' +
             '<td><a id=' + i + ' href="javascript:void(0);" onclick="modificarMedico(id);">' + 'Modificar' + '</a></td>' + '</tr>';
     }
@@ -96,7 +95,7 @@ function mostrarMedicos(datosDNI) {
 function eliminarEspecialidad(id) {
     var recurso = "https://esanidad.herokuapp.com/eliminarEspecialidad";
     var data = {
-        nombreEspecialidad: datosNombre[id]
+        nombreEspecialidad: datosNombreEspecialidad[id]
     }
     data = JSON.stringify(data);
     setTimeout($.ajax({
@@ -113,7 +112,7 @@ function eliminarEspecialidad(id) {
         if (data.type == "OK") {
             console.log(data);
             console.log("especialidad eliminada");
-            setTimeout(location.href = 'https://esanidad.herokuapp.com/gestor', 10000);
+            setTimeout(location.href = './gestor.html', 10000);
         }
     }), 10000);
 }
@@ -144,10 +143,7 @@ function eliminarMedico(id) {
 }
 
 function modificarEspecialidad(id) {
-    sessionStorage.setItem("nombre", JSON.stringify(datosNombre[id]));
-    sessionStorage.setItem("tiempo", JSON.stringify(datosDuracion[id]));
-    sessionStorage.setItem("inicio", JSON.stringify(datosHoraInicio[id]));
-    sessionStorage.setItem("fin", JSON.stringify(datosHoraFin[id]));
+    sessionStorage.setItem("nombreEspecialidad", JSON.stringify(datosNombreEspecialidad[id]));
     location.href = '../views/modificarEspecialidad.html'
 }
 
@@ -179,12 +175,12 @@ setTimeout($.ajax({
 }).done(function(data, textStatus, jqXHR) {
     if (data.type == "OK") {
         for (var i = 0; i < (data.numero); i++) {
-                datosDNIMedico[i] = data['dniMedico' + i];
-                datosDuracionM[i] = data['duracionCita' + i];
-                datosHoraInicioM[i] = data['horaInicio' + i];
-                datosHoraFinM[i] = data['horaFin' + i];
+            datosDNIMedico[i] = data['dniMedico' + i];
+            datosDuracionM[i] = data['duracionCita' + i];
+            datosHoraInicioM[i] = data['horaInicio' + i];
+            datosHoraFinM[i] = data['horaFin' + i];
         }
-        mostrarHorarios(datosDNIMedico,datosDuracionM,datosHoraInicioM,datosHoraFinM);
+        mostrarHorarios(datosDNIMedico, datosDuracionM, datosHoraInicioM, datosHoraFinM);
     }
 }), 10000);
 
@@ -201,7 +197,7 @@ function mostrarHorarios(datosDNIMedico, datosDuracionM, datosHoraInicioM, datos
 }
 
 function modificarHorario(id) {
-    sessionStorage.setItem("nombre", JSON.stringify(datosDNIMedico[id]));
+    sessionStorage.setItem("dniMedico", JSON.stringify(datosDNIMedico[id]));
     sessionStorage.setItem("tiempo", JSON.stringify(datosDuracionM[id]));
     sessionStorage.setItem("inicio", JSON.stringify(datosHoraInicioM[id]));
     sessionStorage.setItem("fin", JSON.stringify(datosHoraFinM[id]));
@@ -231,4 +227,9 @@ function eliminarHorario(id) {
             setTimeout(location.href = './gestor.html', 10000);
         }
     }), 10000);
+}
+
+function cerrarSesion() {
+    sessionStorage.removeItem("data");
+    setTimeout(location.href = '../index.html', 10000);
 }
