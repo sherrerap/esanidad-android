@@ -241,3 +241,9 @@ function pedirCita() {
             }), 10000);
 
 }
+function cerrarSesion() {
+
+    sessionStorage.removeItem("dniPacienteGC");
+    setTimeout(location.href = '../index.html', 10000);
+
+}

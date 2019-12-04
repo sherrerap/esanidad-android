@@ -3,21 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="31f35906-ae08-4e85-90d2-b3373f66ee80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/views/gestor.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/views/gestor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/views/modificarHorario.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/views/modificarHorario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/especialidad.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/especialidad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/gestor.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/gestor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/horario.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/horario.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/medico.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/medico.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/modificarEspecialidad.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/modificarEspecialidad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/modificarHorario.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/modificarHorario.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/especialidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/especialidad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/gestor.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/gestor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/horario.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/horario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/medico.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/medico.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/medicoPaciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/medicoPaciente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/modificarEspecialidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/modificarEspecialidad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/views/modificarHorario.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/modificarHorario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/modificarCitaGC.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/modificarCitaGC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/js/pedirCitaGC.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/pedirCitaGC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/gestorCitas.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/gestorCitas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/modificarCitaGC.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/modificarCitaGC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/views/pedirCitaGC.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/views/pedirCitaGC.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +19,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -41,6 +31,8 @@
       <find>gc</find>
       <find>header-top-area</find>
       <find>eliminarMedico</find>
+      <find>mostrarContenido</find>
+      <find>myFunction()</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -64,18 +56,13 @@
         <option value="$PROJECT_DIR$/www/js/doctor.js" />
         <option value="$PROJECT_DIR$/www/js/eliminarCP.js" />
         <option value="$PROJECT_DIR$/www/views/eliminarCP.html" />
-        <option value="$PROJECT_DIR$/www/views/gestorCitas.html" />
         <option value="$PROJECT_DIR$/www/js/gestorCitas.js" />
-        <option value="$PROJECT_DIR$/www/js/pedirCitaGC.js" />
         <option value="$PROJECT_DIR$/www/js/medicoPaciente.js" />
         <option value="$PROJECT_DIR$/www/views/modificarCita.html" />
         <option value="$PROJECT_DIR$/www/js/modificarCita.js" />
-        <option value="$PROJECT_DIR$/www/views/modificarCitaGC.html" />
-        <option value="$PROJECT_DIR$/www/js/modificarCitaGC.js" />
         <option value="$PROJECT_DIR$/www/views/paciente.html" />
         <option value="$PROJECT_DIR$/www/js/citas.js" />
         <option value="$PROJECT_DIR$/www/js/paciente.js" />
-        <option value="$PROJECT_DIR$/www/views/pedirCitaGC.html" />
         <option value="$PROJECT_DIR$/www/js/preguntasFrecuentes.js" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/js/centro.js" />
@@ -93,6 +80,11 @@
         <option value="$PROJECT_DIR$/www/js/modificarHorario.js" />
         <option value="$PROJECT_DIR$/www/js/medico.js" />
         <option value="$PROJECT_DIR$/www/views/gestor.html" />
+        <option value="$PROJECT_DIR$/www/views/gestorCitas.html" />
+        <option value="$PROJECT_DIR$/www/js/modificarCitaGC.js" />
+        <option value="$PROJECT_DIR$/www/views/modificarCitaGC.html" />
+        <option value="$PROJECT_DIR$/www/js/pedirCitaGC.js" />
+        <option value="$PROJECT_DIR$/www/views/pedirCitaGC.html" />
       </list>
     </option>
   </component>
@@ -130,12 +122,6 @@
               <item name="esanidad-android" type="b2602c69:ProjectViewProjectNode" />
               <item name="esanidad-android" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="esanidad-android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="esanidad-android" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="esanidad-android" type="b2602c69:ProjectViewProjectNode" />
@@ -259,27 +245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/modificarCitaGC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="127" column="69" selection-start-line="127" selection-start-column="69" selection-end-line="127" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/paciente.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="45" selection-start-line="117" selection-start-column="45" selection-end-line="117" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/pedirCitaGC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/preguntasFrecuentes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -294,20 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="44" column="81" selection-start-line="44" selection-start-column="81" selection-end-line="44" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/meanmenu/meanmenu.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -318,13 +269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/gestorCitas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="64" column="34" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/citas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
@@ -332,24 +276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/centro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/views/citas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2414">
           <caret line="202" column="7" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/doctor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3187">
-          <caret line="207" column="20" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -367,13 +297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/modificarCitaGC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3181">
-          <caret line="189" column="20" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/views/paciente.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2881">
@@ -381,24 +304,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/pedirCitaGC.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="231" column="20" selection-start-line="231" selection-start-column="20" selection-end-line="231" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/views/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1708">
           <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/gestorCitas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -413,13 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="95" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/centro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
         </state>
       </provider>
     </entry>
@@ -486,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/gestor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="206" column="37" lean-forward="true" selection-start-line="206" selection-start-column="37" selection-end-line="206" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/horario.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -504,6 +399,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="44" column="81" selection-start-line="44" selection-start-column="81" selection-end-line="44" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/doctor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2422">
+          <caret line="207" column="20" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/paciente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="117" column="45" selection-start-line="117" selection-start-column="45" selection-end-line="117" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/centro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/gestorCitas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/gestor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="195" column="50" selection-start-line="195" selection-start-column="50" selection-end-line="195" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/centro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="175" column="20" lean-forward="true" selection-start-line="175" selection-start-column="20" selection-end-line="184" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/pedirCitaGC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4148">
+          <caret line="244" lean-forward="true" selection-start-line="244" selection-end-line="244" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/modificarCitaGC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="145" selection-start-line="145" selection-end-line="150" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/gestorCitas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="210" column="34" lean-forward="true" selection-start-line="203" selection-start-column="27" selection-end-line="210" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/modificarCitaGC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1881">
+          <caret line="161" column="6" lean-forward="true" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/pedirCitaGC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="262" column="43" lean-forward="true" selection-start-line="262" selection-start-column="43" selection-end-line="262" selection-end-column="43" />
         </state>
       </provider>
     </entry>
