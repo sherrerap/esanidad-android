@@ -14,20 +14,22 @@ if (sessionStorage.getItem("data") == null) {
 
 
 function obtenerCitaPaciente() {
-    var DNI = JSON.parse(sessionStorage.getItem("dniDoctor"));
+    var DNI = sessionStorage.getItem("dniDoctor");
     var recurso = "https://esanidad.herokuapp.com/getCitas";
     var año = (document.getElementById("fecha").value).substr(0, 4);
     var mes = (document.getElementById("fecha").value).substr(5, 2);
     var dia = (document.getElementById("fecha").value).substr(8, 2);
-
     var Fecha = dia + '/' + mes + '/' + año + ' 00:00:00';
     console.log(Fecha);
-
-
+    $("#tablaCuerpo").empty();
+    datosDNIP = [];
+    datosES = [];
+    datosF = [];
+    datosH = [];
 
     var data = {
         dni: DNI,
-        fecha: Fecha,
+        fecha: Fecha
     };
     data = JSON.stringify(data);
     setTimeout($.ajax({
@@ -95,7 +97,6 @@ function eliminarCita(id) {
 function mostrarContenido(datosDNIP, datosES, datosF, datosH) {
     var cuerpo = "";
 
-
     var cabecera = '<tr>' + '<th>FECHA</th>' + '<th>HORA</th>' +
         '<th>DNI PACIENTE</th>' + '<th>ESPECIALIDAD</th>' + '</tr>';
 
@@ -104,7 +105,7 @@ function mostrarContenido(datosDNIP, datosES, datosF, datosH) {
             dniPaciente: datosDNIP[i],
             especialidad: datosES[i],
             fecha: datosF[i],
-            hora: datosH[i],
+            hora: datosH[i]
         };
         data = JSON.stringify(data);
         cuerpo += '<tr>' + '<td>' + datosF[i].substr(0, 10) + '</td>' + '<td>' +
@@ -113,6 +114,7 @@ function mostrarContenido(datosDNIP, datosES, datosF, datosH) {
     }
     $("#tablaCabecera").append(cabecera);
     $("#tablaCuerpo").append(cuerpo);
+    data = "";
 }
 
 function cerrarSesion() {

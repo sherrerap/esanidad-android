@@ -5,10 +5,12 @@ if (sessionStorage.getItem("data") == null) {
     var DNI = JSON.parse(sessionStorage.getItem("data"));
     var divCambioRol = document.getElementById("divCambioRol");
     var especialidadMedico = JSON.parse(sessionStorage.getItem("especialidadMedico"));
-
+    sessionStorage.setItem("dniDoctor", DNI);
 
     var recurso = "https://esanidad.herokuapp.com/citasPaciente";
     var datosDNIP = [];
+    var nombresMedico = [];
+    var apellidosMedico = [];
     var datosES = [];
     var datosF = [];
     var data = {
@@ -31,7 +33,8 @@ if (sessionStorage.getItem("data") == null) {
             console.log("FUNCIONA");
 
             for (var i = 0; i < (data.numero); i++) {
-
+                nombresMedico[i] = data['nombreMedico' + i];
+                apellidosMedico[i] = data['apellidosMedico' + i];
                 datosDNIP[i] = data['dniPaciente' + i];
                 datosES[i] = data['especialidad' + i];
                 datosF[i] = data['fecha' + i];
@@ -104,7 +107,7 @@ function mostrarContenido(datosDNIP, datosES, datosF) {
         };
         data = JSON.stringify(data);
         cuerpo += '<tr>' + '<td>' + datosF[i] + '</td>' + '<td>' +
-            datosDNIP[i] + '</td>' + '<td>' + datosES[i] +
+            nombresMedico[i] + '</td>' + '<td>' + apellidosMedico[i] + '</td>' + '<td>' + datosES[i] +
             '</td>' + '<td><a id=' + i + ' href="javascript:void(0);" onclick="eliminarCita(id);">' + 'Eliminar' + '</a></td>' + '<td><a id=' + i + ' href="javascript:void(0);" onclick="modificarCita(id);">' + 'Modificar' + '</a></td>' + '</tr>';
     }
     $("#tablaCabecera").append(cabecera);

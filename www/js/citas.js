@@ -1,6 +1,6 @@
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
-    location.href = '../index.html'
+    location.href = '..index.html'
 } else {
     var contenidoDespegable = true;
     var contenidoDespegableHoras = true;
@@ -68,7 +68,7 @@ function obtenerHoras() {
 
                 } else {
                     if (data.type = "error") {
-                        alert("Error al obtener las horas de las citas, contacte con el servicio de soporte.");
+                        alert("Error al obtener las horas de las citas, contacte con el servicio de soporte. Puede que el médico no tenga un horario asignado.");
                     }
 
 
