@@ -1,11 +1,10 @@
-
 if (sessionStorage.getItem("data") == null) {
     alert("no tienes acceso a esta vista");
     location.href = '../index.html'
 } else {
     var DNI = JSON.parse(sessionStorage.getItem("data"));
     var recurso = "https://esanidad.herokuapp.com/consultaEspecialidades";
-    var datosNombre = [];
+    var datosNombreEspecialidad = [];
     var datosDuracion = [];
     var datosHoraInicio = [];
     var datosHoraFin = [];
@@ -51,6 +50,8 @@ var recurso = "https://esanidad.herokuapp.com/listaMedicos";
 var datosDNI = [];
 var datosNombre = [];
 var datosApellido = [];
+var datosEspecialidad = [];
+var datosCentro = [];
 
 var data = {
     dni: DNI,
@@ -72,12 +73,14 @@ setTimeout($.ajax({
             datosDNI[i] = data['dni' + i];
             datosNombre[i] = data['nombre' + i];
             datosApellido[i] = data['apellidos' + i];
+            datosEspecialidad[i] = data['especialidad' + i];
+            datosCentro[i] = data['centro' + i];
         }
-        mostrarMedicos(datosDNI);
+        mostrarMedicos(datosDNI, datosNombre, datosApellido, datosEspecialidad, datosCentro);
     }
 }), 10000);
 
-function mostrarMedicos(datosDNI) {
+function mostrarMedicos(datosDNI, datosNombre, datosApellido, datosEspecialidad, datosCentro) {
     var cuerpo_medico = "";
 
     for (var i = 0; i < datosDNI.length; i++) {
@@ -85,12 +88,28 @@ function mostrarMedicos(datosDNI) {
             dni: datosDNI[i],
         };
         data = JSON.stringify(data);
-        cuerpo_medico += '<tr>' + '<td>' + datosDNI[i] + '</td>' + '<td>' + datosNombre[i] + ' </td>' + '<td>' + datosApellido[i] + ' </td>' +
+        console.log(datosEspecialidad[i])
+        console.log(datosCentro[i]);
+        cuerpo_medico += '<tr>' + '<td>' + datosDNI[i] + '</td>' +
+            '<td>' + datosNombre[i] + ' </td>' +
+            '<td>' + datosApellido[i] + ' </td>' +
+            '<td>' + datosEspecialidad[i] + ' </td>' +
+            '<td>' + datosCentro[i] + ' </td>' +
             '<td><a id=' + i + ' href="javascript:void(0);" onclick="eliminarMedico(id);">' + 'Eliminar' + '</a></td>' +
             '<td><a id=' + i + ' href="javascript:void(0);" onclick="modificarMedico(id);">' + 'Modificar' + '</a></td>' + '</tr>';
     }
     $("#tablaMedicoCuerpo").append(cuerpo_medico);
 }
+
+function modificarMedico(id) {
+    sessionStorage.setItem("dni", JSON.stringify(datosDNI[id]));
+    sessionStorage.setItem("nombre", JSON.stringify(datosNombre[id]));
+    sessionStorage.setItem("apellidos", JSON.stringify(datosApellido[id]));
+    sessionStorage.setItem("especialidad", JSON.stringify(datosEspecialidad[id]));
+    sessionStorage.setItem("centro", JSON.stringify(datosCentro[id]));
+    location.href = '../views/modificarMedico.html'
+}
+
 
 function eliminarEspecialidad(id) {
     var recurso = "https://esanidad.herokuapp.com/eliminarEspecialidad";
@@ -228,7 +247,6 @@ function eliminarHorario(id) {
         }
     }), 10000);
 }
-
 function cerrarSesion() {
     sessionStorage.removeItem("data");
     setTimeout(location.href = '../index.html', 10000);
